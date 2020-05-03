@@ -22,3 +22,15 @@
 //       #main-content .statuses > div .status.notapplicable{color:$notApplicable-textColor;}
 // }
 
+.navbar-brand {
+  display: block;
+  width: 75%;
+  max-width: 300px;
+  padding: 15px;
+  @media screen and (min-width: 769px) {
+    padding: 15px 15px 15px 0;
+  }
+  img {
+    width: 100%;
+  }
+}
