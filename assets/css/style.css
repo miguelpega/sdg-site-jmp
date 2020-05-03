@@ -1709,3 +1709,14 @@ body.contrast-high #search-results .search-result .content {
     background-position: right 60px top;
     background-size: 180px;
     background-repeat: no-repeat; } }
+
+.navbar-brand {
+  display: block;
+  width: 75%;
+  max-width: 300px;
+  padding: 15px; }
+  @media screen and (min-width: 769px) {
+    .navbar-brand {
+      padding: 15px 15px 15px 0; } }
+  .navbar-brand img {
+    width: 100%; }
